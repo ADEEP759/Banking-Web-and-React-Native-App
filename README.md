@@ -13,7 +13,7 @@ root/
 │   ├── host-app/           # Main host application (port 3000)
 │   ├── transaction-history/# Microfrontend for transactions (port 3001)
 │   ├── account-overview/   # Microfrontend for account info (port 3002)
-│   └── node_modules/       # Installed dependencies
+│   └── ui-kit/             # Shared UI components
 ```
 ---
 
