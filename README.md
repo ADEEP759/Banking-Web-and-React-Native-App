@@ -11,8 +11,8 @@ root/
 ├── backend/                # Node.js + Express.js + GraphQL server
 ├── frontend/
 │   ├── host-app/           # Main host application (port 3000)
-│   ├── transaction-history/# Microfrontend for transactions (port 3001)
-│   ├── account-overview/   # Microfrontend for account info (port 3002)
+│   ├── transaction-history/# Microfrontend for transactions (port 3002)
+│   ├── account-overview/   # Microfrontend for account info (port 3001)
 │   └── ui-kit/             # Shared UI components
 ```
 ---
@@ -60,7 +60,7 @@ npm install
 npm run build
 ```
 
-### b. `account-overview` (Port 3002)
+### b. `account-overview` (Port 3001)
 
 ```bash
 cd frontend/account-overview
@@ -68,7 +68,7 @@ npm install
 npm start
 ```
 
-### c. `transaction-history` (Port 3001)
+### c. `transaction-history` (Port 3002)
 
 ```bash
 cd frontend/transaction-history
@@ -110,8 +110,8 @@ npm start
 | Module               | Port   | Description                    |
 |----------------------|--------|--------------------------------|
 | `host-app`           | 3000   | Main container app             |
-| `transaction-history`| 3001   | Transactions microfrontend     |
-| `account-overview`   | 3002   | Accounts microfrontend         |
+| `transaction-history`| 3002   | Transactions microfrontend     |
+| `account-overview`   | 3001   | Accounts microfrontend         |
 | `backend`            | 4000   | GraphQL backend                |
 
 - Ports are configurable via `webpack.config.js` in each module.
