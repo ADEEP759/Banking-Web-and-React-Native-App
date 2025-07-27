@@ -1,0 +1,10 @@
+{
+  "name": "bank-customer-portal",
+  "private": true,
+  "workspaces": [
+    "host-app",
+    "ui-kit",
+    "transaction_history",
+    "account_overview"
+  ]
+}

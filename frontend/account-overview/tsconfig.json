@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                             // Good for modern JS features
+    "module": "ESNext",                          // Required for Webpack & dynamic imports
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],    // Covers browser and async features
+    "jsx": "react-jsx",                          // React 17+ JSX transform (no need to import React)
+    "moduleResolution": "node",
+    "esModuleInterop": true,                     // Required for default imports from CommonJS modules
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,                         // Needed if you're publishing types or exposing modules
+    "outDir": "./dist",
+    "types": ["react", "react-dom"],             // Helps auto-import React types globally
+    "baseUrl": ".",                              // Enable path aliases if needed
+    "paths": {
+      "react-native": ["./node_modules/react-native-web"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
