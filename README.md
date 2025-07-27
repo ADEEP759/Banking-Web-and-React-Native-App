@@ -8,12 +8,13 @@ This repository hosts a microfrontend-based finance app using **Node.js**, **Exp
 
 ```
 root/
-├── backend/               # Node.js + Express.js + GraphQL server
-├── host-app/              # Main host application (port 3000)
-├── transaction-history/   # Microfrontend (port 3001)
-├── account-overview/      # Microfrontend (port 3002)
-└── ui-kit/                # Shared UI component library
-```
+├── backend/ # Node.js + Express.js + GraphQL server
+├── frontend/
+  ├── host-app/ # Main host application (port 3000)
+  ├── transaction-history/ # Microfrontend for transactions (port 3001)
+  ├── account-overview/ # Microfrontend for account info (port 3002)
+  ├── ui-kit/ # Shared UI components
+  └── node_modules/ # Installed dependencies
 
 ---
 
