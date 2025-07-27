@@ -18,27 +18,6 @@ root/
 ---
 
 
-# 🔁 Full Stack Finance App (Web + Mobile)
-
-This repository hosts a microfrontend-based finance app using **Node.js**, **Express.js**, **React**, **React Native Web**, **GraphQL**, and **Webpack Module Federation**. The application is composed of a backend service and multiple frontend modules (`host-app`, `transaction-history`, `account-overview`, and `ui-kit`), all working together via shared ports and webpack federation.
-
----
-
-## 📁 Project Structure
-
-```
-root/
-├── backend/                # Node.js + Express.js + GraphQL server
-├── frontend/
-│   ├── host-app/           # Main host application (port 3000)
-│   ├── transaction-history/# Microfrontend for transactions (port 3001)
-│   ├── account-overview/   # Microfrontend for account info (port 3002)
-│   ├── ui-kit/             # Shared UI components
-│   └── node_modules/       # Installed dependencies
-```
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
