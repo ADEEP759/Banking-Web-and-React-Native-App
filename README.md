@@ -23,8 +23,8 @@ root/
 ### 1. Clone the Repository
 
 ```bash
-git clone <REPO_URL>
-cd <REPO_FOLDER>
+git clone https://github.com/ADEEP759/Banking-Web-and-React-Native-App.git
+cd Banking-Web-and-React-Native-App
 ```
 
 ---
